@@ -81,8 +81,11 @@ WSGI_APPLICATION = 'django_project.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'mariaquiti_lista-tareas',
+        'USER': 'mariaquiti_tareas',
+        'PASSWORD': 'Ojosucio0-',
+        'HOST': 'postgresql-mariaquiti.alwaysdata.net',
     }
 }
 
